@@ -1,0 +1,14 @@
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\bin\Debug\net8.0\ASP.net Core Course (ToDoList-console).exe
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\bin\Debug\net8.0\ASP.net Core Course (ToDoList-console).deps.json
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\bin\Debug\net8.0\ASP.net Core Course (ToDoList-console).runtimeconfig.json
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\bin\Debug\net8.0\ASP.net Core Course (ToDoList-console).dll
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\bin\Debug\net8.0\ASP.net Core Course (ToDoList-console).pdb
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\ASP.net Core Course (ToDoList-console).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\ASP.net Core Course (ToDoList-console).AssemblyInfoInputs.cache
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\ASP.net Core Course (ToDoList-console).AssemblyInfo.cs
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\ASP.net Core Course (ToDoList-console).csproj.CoreCompileInputs.cache
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\ASP.net Core Course (ToDoList-console).dll
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\refint\ASP.net Core Course (ToDoList-console).dll
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\ASP.net Core Course (ToDoList-console).pdb
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\ASP.net Core Course (ToDoList-console).genruntimeconfig.cache
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net Core Course (ToDoList-console)\obj\Debug\net8.0\ref\ASP.net Core Course (ToDoList-console).dll
