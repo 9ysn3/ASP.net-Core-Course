@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QVi7+jJCR+8C5tkC7KL46qCMNA58L39kncA8IqZC/V0=",
+  "Hash": "/U1EZBtptVToAxuM1l62h8QS3b0mVcKMtW/vad1uR7Y=",
   "Source": "ToDolistMVC",
   "BasePath": "_content/ToDolistMVC",
   "Mode": "Default",
@@ -745,8 +745,8 @@
       "RelatedAsset": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "rl5dcbfpcw",
-      "Integrity": "Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=",
+      "Fingerprint": "fpxp8wntf7",
+      "Integrity": "465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\wwwroot\\js\\site.js"
@@ -983,12 +983,12 @@
       "OriginalItemSpec": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-9x78dmrm0m.gz",
       "SourceId": "ToDolistMVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ToDolistMVC",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=9x78dmrm0m}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -997,8 +997,8 @@
       "RelatedAsset": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "y436ibz6a2",
+      "Integrity": "YmM9T0z8enp5wBvbg6S6K+6vTcobNNGi8hQYnW3y9h4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "9x78dmrm0m",
+      "Integrity": "HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-b9sayid5wm.gz",
+      "Route": "css/site.9x78dmrm0m.css",
+      "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-9x78dmrm0m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002770083102"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2744,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "360"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"YmM9T0z8enp5wBvbg6S6K+6vTcobNNGi8hQYnW3y9h4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 09:59:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2772,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "9x78dmrm0m"
         },
         {
           "Name": "label",
@@ -2786,12 +2786,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.9x78dmrm0m.css",
       "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "757"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2809,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 09:59:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2823,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "9x78dmrm0m"
         },
         {
           "Name": "label",
@@ -2831,13 +2831,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-b9sayid5wm.gz",
+      "Route": "css/site.9x78dmrm0m.css.gz",
+      "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-9x78dmrm0m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2846,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "360"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2854,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"YmM9T0z8enp5wBvbg6S6K+6vTcobNNGi8hQYnW3y9h4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 09:59:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +2876,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "9x78dmrm0m"
         },
         {
           "Name": "label",
@@ -2884,18 +2884,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-YmM9T0z8enp5wBvbg6S6K+6vTcobNNGi8hQYnW3y9h4="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-9x78dmrm0m.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002770083102"
         }
       ],
       "ResponseHeaders": [
@@ -2905,15 +2905,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "360"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"YmM9T0z8enp5wBvbg6S6K+6vTcobNNGi8hQYnW3y9h4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 09:59:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2933,13 +2933,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k="
         }
       ]
     },
@@ -2954,7 +2954,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "757"
         },
         {
           "Name": "Content-Type",
@@ -2962,11 +2962,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 09:59:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2976,13 +2976,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-HU9V1mZCsTs+xEgsE36GGlMKGPat4rXwE3V+vqki7+k="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\yasse\\Desktop\\work\\Asp.net Core Course Folder\\ASP.net-Core-Course\\ToDolistMVC\\obj\\Debug\\net9.0\\compressed\\oyvfnu44n8-9x78dmrm0m.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2991,7 +2991,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "360"
         },
         {
           "Name": "Content-Type",
@@ -2999,11 +2999,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"YmM9T0z8enp5wBvbg6S6K+6vTcobNNGi8hQYnW3y9h4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 09:59:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3021,7 +3021,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-YmM9T0z8enp5wBvbg6S6K+6vTcobNNGi8hQYnW3y9h4="
         }
       ]
     },
@@ -3330,7 +3330,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005263157895"
+          "Quality": "0.005235602094"
         }
       ],
       "ResponseHeaders": [
@@ -3340,15 +3340,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "190"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 10:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3401,7 +3401,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 10:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3426,7 +3426,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "190"
         },
         {
           "Name": "Content-Type",
@@ -3434,11 +3434,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 10:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3456,7 +3456,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA="
+          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
         }
       ]
     },
@@ -3467,7 +3467,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005263157895"
+          "Quality": "0.005235602094"
         }
       ],
       "ResponseHeaders": [
@@ -3477,15 +3477,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "190"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 10:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3546,7 +3546,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 10:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3579,7 +3579,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "189"
+          "Value": "190"
         },
         {
           "Name": "Content-Type",
@@ -3587,11 +3587,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+          "Value": "\"465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 09 Aug 2025 19:55:27 GMT"
+          "Value": "Sun, 10 Aug 2025 10:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3617,7 +3617,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA="
+          "Value": "sha256-465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA="
         }
       ]
     },

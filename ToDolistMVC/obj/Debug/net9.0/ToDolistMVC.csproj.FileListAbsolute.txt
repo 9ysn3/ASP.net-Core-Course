@@ -18,7 +18,6 @@ C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDol
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\scopedcss\bundle\ToDolistMVC.styles.css
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\scopedcss\projectbundle\ToDolistMVC.bundle.scp.css
-C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\compressed\oyvfnu44n8-b9sayid5wm.gz
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\compressed\luto0l4ogc-61n19gt1b8.gz
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\compressed\in25ta33tr-xtxxf3hu2r.gz
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\compressed\yvhbh119du-bqjiyaj88i.gz
@@ -97,3 +96,4 @@ C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDol
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\ToDolistMVC.genruntimeconfig.cache
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\ref\ToDolistMVC.dll
 C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\yasse\Desktop\work\Asp.net Core Course Folder\ASP.net-Core-Course\ToDolistMVC\obj\Debug\net9.0\compressed\oyvfnu44n8-9x78dmrm0m.gz

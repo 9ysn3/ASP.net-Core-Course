@@ -15,18 +15,29 @@
         {
             string classCss = task.IsCompleted ? "text-decoration-line-through" : "text-success";
             int index = Model.IndexOf(task);
+
             <tr>
                 <td class="@classCss">@task.Title</td>
                 <td class="@classCss">@task.DueDate.ToShortDateString()</td>
                 <td>
                     @if (!task.IsCompleted)
                     {
-                       <a href="/CompleateTask/@index" class="btn btn-success">Compleate Task</a>
+                        <a href="/CompleateTask/@index" class="btn btn-success">Compleate Task</a>
                     }
                 </td>
-                
-                
             </tr>
         }
     </tbody>
 </table>
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+                $(".nav-link").removeClass("active");
+                let nav=$(".nav-link")[1];
+                $(nav).addClass("active");
+        });
+    </script>
+}

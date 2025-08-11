@@ -13,8 +13,17 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    [HttpPost]
+    public IActionResult SetTheme(string theme)
+    {
+        HttpContext.Session.SetString("Theme", theme);
+        return Ok();
+    }
+
     public IActionResult Index()
     {
+        var theme = HttpContext.Session.GetString("Theme") ?? "Light";
+        ViewBag.Theme = theme;
         return View();
     }
 
