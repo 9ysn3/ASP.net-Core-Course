@@ -1,26 +1,34 @@
-﻿using ToDolistMVC.IRepositories;
+﻿using Microsoft.EntityFrameworkCore;
+using ToDolistMVC.Data;
+using ToDolistMVC.IRepositories;
 using ToDolistMVC.Models;
 
 namespace ToDolistMVC.Repositories
 {
     public class TaskRepository : ITaskRepository
     {
-        private static List<TaskItem> tasks = new List<TaskItem>    {
-        new TaskItem { Title = "Write documentation", DueDate = DateTime.Today.AddDays(2), IsCompleted = false },
-        new TaskItem { Title = "Fix login bug", DueDate = DateTime.Today.AddDays(1), IsCompleted = true },
-        new TaskItem { Title = "Deploy to production", DueDate = DateTime.Today.AddDays(5), IsCompleted = false }    };
-        public List<TaskItem> GetAll()
+        private AppDbContext _context;
+        public TaskRepository(AppDbContext context)
         {
-            return tasks;
+            _context=context;
         }
-        public void Add(TaskItem task)
+        public async Task<List<TaskItem>> GetAll()
         {
-            tasks.Add(task);
+            return await _context.Tasks.ToListAsync();
         }
-        public void MarkComplete(int index)
+        public async Task Add(TaskItem task)
         {
-            if (index >= 0 && index < tasks.Count)
-                tasks[index].IsCompleted = true;
+             await _context.Tasks.AddAsync(task);
+             await  _context.SaveChangesAsync();
+        }
+        public async Task MarkComplete(int id)
+        {
+            TaskItem task =await _context.Tasks.FirstAsync(x => x.Id == id);
+            if (task != null)
+            {
+                task.IsCompleted = true;
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

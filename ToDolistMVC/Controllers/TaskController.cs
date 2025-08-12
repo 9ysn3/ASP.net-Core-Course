@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ToDolistMVC.IServices;
 using ToDolistMVC.Models;
 
 namespace ToDolistMVC.Controllers
 {
+    [Authorize]
     public class TaskController : Controller
     {
         private readonly ITaskService _taskService;
@@ -13,28 +15,46 @@ namespace ToDolistMVC.Controllers
             _taskService = taskService;
             _logger = logger;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var tasks = _taskService.GetTasks();
+            var tasks = await _taskService.GetTasks();
             _logger.LogInformation("Get All Tasks");
             return View(tasks);
         }
         [Route("/AddTask")]
-        public IActionResult Create()
+
+
+
+        [Authorize]
+        public async Task<IActionResult> Create()
         {
             return View();
         }
+
+
+
+
         [HttpPost]
+        [ValidateAntiForgeryToken]
         [Route("/CreateTask")]
-        public IActionResult Create(TaskItem task)
+        public async Task<IActionResult> Create(TaskItem task)
         {
-            _taskService.AddTask(task);
+            if (!ModelState.IsValid)
+            {
+                // Return the same view with the invalid model to show validation errors
+                return View("Create", task);
+            }
+
+            await _taskService.AddTask(task);
             return Redirect("/");
         }
-        [Route("/CompleateTask/{index}")]
-        public IActionResult done(int index)
+
+
+
+        [Route("/CompleateTask/{id}")]
+        public async Task<IActionResult> done(int id)
         {
-            _taskService.CompleteTask(index);
+            await _taskService.CompleteTask(id);
             return Redirect("/");
         }
     }

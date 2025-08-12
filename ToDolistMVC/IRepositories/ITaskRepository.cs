@@ -4,8 +4,8 @@ namespace ToDolistMVC.IRepositories
 {
     public interface ITaskRepository
     {
-        List<TaskItem> GetAll();
-        void Add(TaskItem task);
-        void MarkComplete(int index);
+        Task<List<TaskItem>> GetAll();
+        Task Add(TaskItem task);
+        Task MarkComplete(int index);
     }
 }

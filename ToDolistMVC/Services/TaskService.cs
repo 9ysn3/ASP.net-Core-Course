@@ -11,17 +11,17 @@ namespace ToDolistMVC.Services
         {
             _repo = repo;
         }
-        public List<TaskItem> GetTasks()
+        public async Task<List<TaskItem>> GetTasks()
         {
-            return _repo.GetAll();
+            return await _repo.GetAll();
         }
-        public void AddTask(TaskItem task)
+        public async Task AddTask(TaskItem task)
         {
-            _repo.Add(task);
+           await _repo.Add(task);
         }
-        public void CompleteTask(int index)
+        public async Task CompleteTask(int id)
         {
-            _repo.MarkComplete(index);
+            await _repo.MarkComplete(id);
         }
     }
 }

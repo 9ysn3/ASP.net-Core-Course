@@ -1,5 +1,7 @@
 ﻿@model List<TaskItem>
-
+@{
+    ViewData["Title"] = "My Tasks";
+}
 <h2>Task List</h2>
 <a href="/AddTask" class="btn btn-warning">Add Task</a>
 <table class="table">
@@ -14,15 +16,14 @@
         @foreach (var task in Model)
         {
             string classCss = task.IsCompleted ? "text-decoration-line-through" : "text-success";
-            int index = Model.IndexOf(task);
 
             <tr>
-                <td class="@classCss">@task.Title</td>
+                <td class="@classCss" onclick="alert('@task.Title')">@task.Title</td>
                 <td class="@classCss">@task.DueDate.ToShortDateString()</td>
                 <td>
                     @if (!task.IsCompleted)
                     {
-                        <a href="/CompleateTask/@index" class="btn btn-success">Compleate Task</a>
+                        <a href="/CompleateTask/@task.Id" class="btn btn-success">Compleate Task</a>
                     }
                 </td>
             </tr>

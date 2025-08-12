@@ -4,8 +4,8 @@ namespace ToDolistMVC.IServices
 {
     public interface ITaskService
     {
-        List<TaskItem> GetTasks();
-        void AddTask(TaskItem task);
-        void CompleteTask(int index);
+        Task<List<TaskItem>> GetTasks();
+        Task AddTask(TaskItem task);
+        Task CompleteTask(int index);
     }
 }

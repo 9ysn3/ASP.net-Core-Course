@@ -1,0 +1,17 @@
+﻿@{
+    Layout = null;
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <span>Hello, @User.Identity.Name!</span>
+    <form action="/Logout" method="post">
+        @Html.AntiForgeryToken()
+        <button type="submit">Logout</button>
+    </form>
+}
+else
+{
+    <a asp-action="Login">Login</a> <span> | </span>
+    <a asp-action="Register" > Register </a>
+}

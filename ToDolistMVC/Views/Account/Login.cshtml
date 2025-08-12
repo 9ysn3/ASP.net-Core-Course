@@ -1,0 +1,17 @@
+﻿@model LoginViewModel
+
+@{
+    Layout = "_IdentityLayout";
+    ViewData["Title"] = "Login";
+}
+
+<form asp-action="Login" method="post">
+    <input asp-for="returnUrl" type="hidden" />
+    @Html.AntiForgeryToken()
+    <input asp-for="Email" placeholder="Email" class="form-control" />
+    @Html.ValidationMessageFor(m => m.Email)
+    <input asp-for="Password" type="password" placeholder="Password" class="form-control" />
+    @Html.ValidationMessageFor(m => m.Password)
+    <button type="submit">Login</button>
+    <a href="/signup">Create acount.</a>
+</form>
