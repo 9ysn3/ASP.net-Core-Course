@@ -5,7 +5,6 @@ using ToDolistMVC.Models;
 
 namespace ToDolistMVC.Controllers
 {
-    [Authorize]
     public class TaskController : Controller
     {
         private readonly ITaskService _taskService;
@@ -17,15 +16,21 @@ namespace ToDolistMVC.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var tasks = await _taskService.GetTasks();
-            _logger.LogInformation("Get All Tasks");
-            return View(tasks);
+            try
+            {
+                var tasks = await _taskService.GetTasks();
+                _logger.LogInformation("Get All Tasks");
+                return View(tasks);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError("Message:"+ex.Message+ "\nInnerException" + ex.InnerException);
+                return View(new List<TaskItem>());
+            }
         }
+
         [Route("/AddTask")]
-
-
-
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create()
         {
             return View();
@@ -35,27 +40,51 @@ namespace ToDolistMVC.Controllers
 
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         [Route("/CreateTask")]
         public async Task<IActionResult> Create(TaskItem task)
         {
-            if (!ModelState.IsValid)
+            try
             {
-                // Return the same view with the invalid model to show validation errors
-                return View("Create", task);
-            }
+                if (!ModelState.IsValid)
+                {
+                    // Return the same view with the invalid model to show validation errors
+                    return View("Create", task);
+                }
 
-            await _taskService.AddTask(task);
-            return Redirect("/");
+                await _taskService.AddTask(task);
+                return Redirect("/");
+            }
+            catch (Exception ex )
+            {
+                _logger.LogError("Message:" + ex.Message + "\nInnerException" + ex.InnerException);
+                ViewBag.error = "Something get wrong, Please try again later!";
+                return View("Create");
+            }
+           
         }
 
 
 
         [Route("/CompleateTask/{id}")]
+        [Authorize]
         public async Task<IActionResult> done(int id)
         {
-            await _taskService.CompleteTask(id);
+            try
+            {
+                await _taskService.CompleteTask(id);
+                
+            }
+            catch (Exception ex)
+            {
+
+                _logger.LogError("Message:" + ex.Message + "\nInnerException" + ex.InnerException);
+                ViewBag.error = "Something get wrong, Please try again later!";
+            }
             return Redirect("/");
+
+
         }
     }
 }

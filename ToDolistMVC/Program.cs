@@ -31,6 +31,13 @@ builder.Services.AddSession();
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<ITaskService, TaskService>();
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+    options.Cookie.SameSite = SameSiteMode.Strict;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -56,4 +63,34 @@ app.MapControllerRoute(
     .WithStaticAssets();
 
 
+using (var scope = app.Services.CreateScope())
+{
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+    string roleName = "Admin";
+    string adminEmail = "admin@admin.com";
+    string adminPassword = "Admin0000";
+
+    // Add role if not exists
+    if (!await roleManager.RoleExistsAsync(roleName))
+        await roleManager.CreateAsync(new IdentityRole(roleName));
+
+    // Add admin user if not exists
+    var adminUser = await userManager.FindByEmailAsync(adminEmail);
+    if (adminUser == null)
+    {
+        adminUser = new IdentityUser
+        {
+            UserName = adminEmail,
+            Email = adminEmail,
+            EmailConfirmed = true
+        };
+        await userManager.CreateAsync(adminUser, adminPassword);
+    }
+
+    // Assign role if not assigned
+    if (!await userManager.IsInRoleAsync(adminUser, roleName))
+        await userManager.AddToRoleAsync(adminUser, roleName);
+}
 app.Run();

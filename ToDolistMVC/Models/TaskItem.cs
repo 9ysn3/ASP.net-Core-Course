@@ -12,5 +12,6 @@ namespace ToDolistMVC.Models
         public string Title { get; set; }
         public bool IsCompleted { get; set; }
         public DateTime DueDate { get; set; }
+        public string? TaskNote { get; set; }
     }
 }

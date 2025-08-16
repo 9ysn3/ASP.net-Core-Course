@@ -18,5 +18,16 @@
         <input required asp-for="DueDate" type="date" class="form-control" />
     </div>
 
+    <div class="form-group">
+        <label asp-for="TaskNote"></label>
+        <input asp-for="TaskNote" type="text" class="form-control" />
+    </div>
+
     <button type="submit" class="btn btn-primary">Add Task</button>
 </form>
+@if (ViewBag.error != null)
+{
+    <script>
+        alert("@ViewBag.error");
+    </script>
+}

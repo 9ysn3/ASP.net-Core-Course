@@ -12,7 +12,7 @@ namespace ToDolistMVC.ViewModels
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        public string returnUrl { get; set; }
+        public string? returnUrl { get; set; }
     }
 
 }
