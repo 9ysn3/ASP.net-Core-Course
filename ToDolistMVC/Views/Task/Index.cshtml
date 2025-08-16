@@ -1,0 +1,60 @@
+﻿@model List<TaskItem>
+@{
+    ViewData["Title"] = "My Tasks";
+}
+<h2>Task List</h2>
+@if (User.IsInRole("Admin")){
+    <a href="/AddTask" class="btn btn-warning">Add Task</a>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Task Name</th>
+            <th>Due Date</th>
+            <th>Task Status</th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>Task Note</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in Model)
+        {
+            string classCss = task.IsCompleted ? "text-decoration-line-through" : "text-success";
+
+            <tr>
+                <td class="@classCss" onclick="alert('@task.Title')">@task.Title</td>
+                <td class="@classCss">@task.DueDate.ToShortDateString()</td>
+                <td>
+                    @if (User.Identity.IsAuthenticated && !task.IsCompleted)
+                    {
+                        <a href="/CompleateTask/@task.Id" class="btn btn-success">Compleate Task</a>
+                    }
+                </td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td>@task.TaskNote</td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+                $(".nav-link").removeClass("active");
+                let nav=$(".nav-link")[1];
+                $(nav).addClass("active");
+        });
+    </script>
+}
+@if(ViewBag.error!=null){
+    <script>
+        alert("@ViewBag.error");
+    </script>
+}

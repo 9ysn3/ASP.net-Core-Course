@@ -1,0 +1,33 @@
+﻿@model TaskItem
+@{
+    ViewData["Title"] = "New Task";
+}
+
+<h2>Add New Task</h2>
+
+<form action="/CreateTask" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input required asp-for="Title" class="form-control" />
+        @Html.ValidationMessageFor(m => m.Title)
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DueDate"></label>
+        <input required asp-for="DueDate" type="date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TaskNote"></label>
+        <input asp-for="TaskNote" type="text" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Task</button>
+</form>
+@if (ViewBag.error != null)
+{
+    <script>
+        alert("@ViewBag.error");
+    </script>
+}
