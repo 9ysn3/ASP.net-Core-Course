@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP.net Core Course (ToDoList-console)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a8ece17fd8ea76ba005ac700132725ce6e87195")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP.net Core Course (ToDoList-console)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP.net Core Course (ToDoList-console)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
